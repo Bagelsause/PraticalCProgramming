@@ -42,9 +42,9 @@ int main (int argc, char *argv[]){
 		scanf("%lf", &list[i]);
 	}
 	
-	printf("Sum: %lf", sum(list, num));
-	printf("\n Average: %lf", average(list, num));
-	printf("\n Standard Deviation: %lf \n", std_dev(list,num));
+	printf("Sum: %0.3lf", sum(list, num));
+	printf("\n Average: %0.3lf", average(list, num));
+	printf("\n Standard Deviation: %0.3lf \n", std_dev(list,num));
 
 	return 0;
 
